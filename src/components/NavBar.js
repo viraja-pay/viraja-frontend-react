@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './../App.css';
-import { Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap'
+import { Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap';
 
 class NavBar extends Component {
   render() {
@@ -15,13 +15,13 @@ class NavBar extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem eventKey={1} href="#">
+              <NavItem eventKey={1} href="/">
                 HOME
       </NavItem>
-              <NavItem eventKey={2} href="#">
+              <NavItem eventKey={2} href="/about">
                 ABOUT
       </NavItem>
-              <NavItem eventKey={2} href="#">
+              <NavItem eventKey={2} href="/contact">
                 CONTACT
       </NavItem>
             </Nav>

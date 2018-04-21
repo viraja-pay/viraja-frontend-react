@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './../App.css';
+import { Jumbotron } from 'react-bootstrap';
 
 class AboutUs extends Component {
   render() {
@@ -8,7 +9,7 @@ class AboutUs extends Component {
         <Jumbotron>
           <h1>About Us</h1>
           <p>
-            Viraja Pay is a digital money transfer enabler. We handle transctions betwen VISA and MPESA.
+            Viraja Pay is a digital money transfer enabler. We enable international transactions on MPESA through VISA.
           </p>
           <p>
             We understand that everyone wants to freely transact online and acros borders especially via mobile.
