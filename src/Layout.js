@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Grid, Row, Col } from 'react-bootstrap';
 import RegistrationForm from './RegistrationForm.js'
+import Welcome from './Welcome.js'
 
 class Layout extends Component {
   render() {
@@ -10,7 +11,8 @@ class Layout extends Component {
         <Grid>
           <Row className="show-grid">
             <Col xs={12} md={8}>
-              Welcome to Viraja Pay
+              <Welcome>
+              </Welcome>
             </Col>
             <Col xs={6} md={4}>
               <RegistrationForm>
