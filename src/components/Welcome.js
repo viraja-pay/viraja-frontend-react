@@ -12,7 +12,7 @@ class Welcome extends Component {
             Seamless mobile payments
   </p>
           <p>
-            <Button bsStyle="info">See More</Button>
+            <Button bsStyle="info">Learn More</Button>
           </p>
         </Jumbotron>;
       </div>
