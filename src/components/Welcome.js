@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './../App.css';
 import { Jumbotron, Button } from 'react-bootstrap'
 
 class Welcome extends Component {

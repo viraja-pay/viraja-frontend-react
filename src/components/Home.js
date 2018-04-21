@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './../App.css';
 import { Grid, Row, Col } from 'react-bootstrap';
 import RegistrationForm from './RegistrationForm.js'
 import Welcome from './Welcome.js'
 
-class Layout extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="Layout">
@@ -25,4 +25,4 @@ class Layout extends Component {
   }
 }
 
-export default Layout;
+export default Home;
