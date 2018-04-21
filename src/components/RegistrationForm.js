@@ -190,7 +190,7 @@ class RegistrationForm extends Component {
         <FormGroup>
           <InputGroup>
             <ButtonToolbar>
-              <ButtonGroup block>
+              <ButtonGroup >
                 <input
                   className="btn btn-info"
                   style={signUpBtnStyle}

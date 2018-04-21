@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render((
   <BrowserRouter>
-    <App />
+    <div className="homeBg">
+     <App />
+    </div>
   </BrowserRouter>
 ), document.getElementById('root'));
